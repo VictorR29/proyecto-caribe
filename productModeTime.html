@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Mode</title>
+  <link rel="stylesheet" href="estilos/productModeStyles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="codeArea">
+      <div class="code">
+        <input class="codes" id="cod" readonly>
+      </div>
+      <div class="product">
+        <input type="text" class="products" id="prd" placeholder="Produto">
+        <button class="btn" id="btn-prd">Ingresar</button>
+      </div>
+      <div class="tiempo">
+        <input type="radio" name="segundos" id="10seg" class="btn-temp">
+        <label for="10seg">30s</label>
+
+        <input type="radio" name="segundos" id="30seg" class="btn-temp">
+        <label for="30seg">60s</label>
+
+        <input type="radio" name="segundos" id="60seg" class="btn-temp">
+        <label for="60seg">90s</label>
+
+        <h1 id="crono"></h1>
+      </div>
+      <button class="btn btn-back"><a href="principal2.html">volver</a></button>
+    </div>
+  </div>
+  <script src="js/productModeTime.js" type="module"></script>
+</body>
+</html>

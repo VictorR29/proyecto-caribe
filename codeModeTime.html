@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Mode</title>
+  <link rel="stylesheet" href="estilos/codeModeStyles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="codeArea">
+      <div class="product">
+        <input class="products" id="prd" readonly>
+      </div>
+      <div class="codes">
+        <input type="text" class="code" id="cod" placeholder="Codigo">
+        <button class="btn" id="btn-code">Ingresar</button>
+      </div>
+      <div class="tiempo">
+        <input type="radio" name="segundos" id="10seg" class="btn-temp">
+        <label for="10seg">10s</label>
+
+        <input type="radio" name="segundos" id="30seg" class="btn-temp">
+        <label for="30seg">30s</label>
+
+        <input type="radio" name="segundos" id="60seg" class="btn-temp">
+        <label for="60seg">60s</label>
+
+        <h1 id="crono"></h1>
+      </div>
+      <button class="btn btn-back"><a href="principal2.html">volver</a></button>
+    </div>
+  </div>
+  <script src="js/codeModeTime.js" type="module"></script>
+</body>
+</html>

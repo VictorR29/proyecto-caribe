@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #22577A;
+}
+
+.contenedor {
+  width: 95%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.codeArea{
+  width: 500px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #48e;
+  text-align: center;
+}
+
+.code {
+  text-align: center;
+  width: 100px;
+  padding: 5px;
+  outline: none;
+  border: none;
+}
+
+.btn {
+  width: 100px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  background: #acfcff;
+  color: #22577A;
+}
+
+.btn:hover {
+  box-shadow: inset 6.5em 0 0 0 #57CC99;
+  transition: 0.30s;
+  background: #57CC99;
+  color: #fff;
+}
+
+.btn-back {
+  border-radius: 50px;
+}
+
+.btn-back a {
+  text-decoration: none;
+  color: #22577A;
+}
+
+.items {
+  padding: 10px;
+  margin-top: 5px;
+  color: #fff;
+}
